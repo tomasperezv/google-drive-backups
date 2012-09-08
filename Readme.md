@@ -1,4 +1,4 @@
-google-drive-backup
+google-drive-backups
 =============
 Python application to store backups in the Google Drive storage service.
 
