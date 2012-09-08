@@ -1,0 +1,19 @@
+# Apply the changes, rename to config.json and remove this comment.
+{
+	"database": "./database/example.db",
+	"dry_run": false,
+	"google_drive": {
+		"client_id": "",
+		"client_secret": "",
+		"scope": "https://www.googleapis.com/auth/drive"
+	},
+	"jobs": [
+		{
+			"id": "gd1",
+			"folder": "jobs",
+			"script": "gd1.sh",
+			"filename": "output_backup.tar",
+			"remote_folder": "google-drive-id-of-the-remote-folder"
+		}
+	]
+}
